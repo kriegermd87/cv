@@ -1,0 +1,73 @@
+/********Tag Selectors**********/
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+
+h1{
+  color: #66BFBF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5.6rem;
+  line-height: 2;
+  margin: 0 auto 0 auto;
+  margin-top: 0;
+  width: 75%;
+  
+  
+}
+
+h2{
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+/********Class Selectors**********/
+
+.top-container{
+  background-color: #EFF5F5;
+  position: relative;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+
+}
+
+.bottom-cloud{
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+  
+  
+
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.me{
+  max-height: auto;
+  max-width: 240px;
+  
+}
