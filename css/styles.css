@@ -11,10 +11,12 @@ h1{
   color: #66BFBF;
   font-family: 'Roboto', sans-serif;
   font-size: 5.6rem;
+  line-height: 2;
+  margin: 0 auto 0 auto;
   margin-top: 0;
   width: 75%;
-  margin: 0 auto 0 auto;
-  line-height: 2;
+  
+  
 }
 
 h2{
@@ -46,9 +48,11 @@ a{
 }
 
 .bottom-cloud{
-  position: absolute;
-  left: 300px;
   bottom: 300px;
+  left: 300px;
+  position: absolute;
+  
+  
 
 }
 
@@ -63,6 +67,7 @@ a{
 }
 
 .me{
-  max-width: 240px;
   max-height: auto;
+  max-width: 240px;
+  
 }
