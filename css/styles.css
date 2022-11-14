@@ -1,24 +1,67 @@
-body {
-    background-color: #EFF5F5;
+/********Tag Selectors**********/
 
+body{
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
 }
-hr{
 
-  border-style: none;
-  border-top-style: dotted;
-  border-color: black;
-  border-width: 5px;
-  margin-left: 0;
-  width: 25%;
-  
-
-}
 h1{
-  color: #0D4C92;
+  color: #66BFBF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5.6rem;
+  margin-top: 0;
+  width: 75%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
 }
+
 h2{
-  color: #0D4C92;
+  color: #66BFBF;
+  font-weight: normal;
 }
+
 h3{
-  color: #0D4C92;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+/********Class Selectors**********/
+
+.top-container{
+  background-color: #EFF5F5;
+  position: relative;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.me{
+  max-width: 240px;
+  max-height: auto;
 }
